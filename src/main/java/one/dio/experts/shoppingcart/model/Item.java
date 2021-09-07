@@ -2,7 +2,7 @@ package one.dio.experts.shoppingcart.model;
 
 import org.springframework.data.redis.core.RedisHash;
 
-@RedisHash("item")
+@RedisHash("items")
 public class Item {
     
     private Integer productId;
